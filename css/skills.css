@@ -1,0 +1,92 @@
+.skills canvas{
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: -60px;
+  left: calc(50% - 5px);
+}
+.skills{
+  position: relative;
+}
+
+
+.web-skills > h2,
+.other-skills > h2{
+  font-size: 40px;
+  text-align: center;
+  padding: 50px 0px;
+}
+
+.skills-flex{
+  display: flex;
+  width: 90%;
+  margin: 0px auto;
+  min-height: 400px;
+}
+
+.web-skills{
+  color: white;
+  background-color: black;
+  padding: 40px 0px;
+}
+
+.skills-point{
+  width: 33.33%;
+  text-align: center;
+}
+
+.skills-point img{
+  width: 200px;
+  height: 200px;
+}
+.skills-css img{
+  width: 180px;
+  height: 180px;
+}
+
+.skills-point h3{
+  font-size: 26px;
+  padding: 20px 0px;
+}
+.skills-css h3{
+  padding: 40px 0px 20px 0px;
+}
+
+.skills-point p{
+  line-height: 30px !important;
+  padding: 0px 20px;
+}
+
+.other-skills .skills-flex{
+  box-sizing: border-box;
+  justify-content: center;
+}
+
+
+.other-skills{
+  margin: 40px 0px;
+}
+
+
+
+
+
+
+
+
+@media all and (max-width: 860px){
+  .skills-point{
+    width: 100%;
+    margin-bottom: 64px;
+  }
+  .skills-flex{
+    display: block;
+  }
+
+  .skills-text{
+    margin: 20px 0px;
+  }
+  .skills-text p{
+    padding: 0px;
+  }
+}

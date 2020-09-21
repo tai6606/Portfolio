@@ -1,0 +1,80 @@
+.contact{
+  position: relative;
+}
+
+#CONTACT{
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  left: calc(50% - 5px);
+  top: -60px;
+}
+
+
+
+
+
+
+
+
+form{
+  background-color: rgb(162, 216, 238);
+}
+form h2{
+  text-align: center;
+  font-size: 30px;
+  padding-top: 64px;
+  color: white;
+  letter-spacing: 1px;
+}
+
+
+
+
+
+
+.form-in{
+  width: 50%;
+  margin: 0px auto;
+  padding: 40px 0px;
+}
+
+
+form input,
+textarea{
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+  height: 40px;
+  margin-top: 30px;
+  font-size: 18px;
+  padding: 5px 0px 5px 20px;
+  border-radius: 8px;
+  border: none;
+}
+
+textarea{
+  height: 100px;
+}
+
+
+
+.form-btn{
+  display: block;
+  width: 50%;
+  margin: 0px auto;
+  margin-top: 60px;
+  padding: 8px 0px;
+  font-size: 18px;
+  color: white;
+  background-color: red;
+  border-radius: 17px;
+  height: auto;
+  cursor: pointer;
+}
+
+@media all and (max-width: 825px){
+  .form-in{
+    width: 70%;
+  }
+}

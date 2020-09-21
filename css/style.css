@@ -1,0 +1,12 @@
+body {
+  color: #333333;
+}
+
+a{
+  color: #333333;
+  text-decoration: none;
+}
+
+p{
+  line-height: 24px !important;
+}
